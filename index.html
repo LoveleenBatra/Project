@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loveleen Batra - Projects Undertaken</title>
+
+<style>
+    /* Reset + Base */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f3f6fc;
+        color: #222;
+        line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+        background: linear-gradient(135deg, #4a68e0, #324fc7);
+        padding: 25px 10px;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    /* Container */
+    .container {
+        width: 92%;
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #333;
+        font-size: 24px;
+    }
+
+    /* Responsive Grid */
+    .project-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /* Project Card */
+    .card {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+        border-left: 6px solid #4a68e0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #4a68e0;
+    }
+
+    .card p {
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    /* Buttons */
+    .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #4a68e0;
+        color: white;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: 0.3s ease;
+    }
+
+    .btn:hover {
+        background: #324fc7;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        color: #666;
+        font-size: 14px;
+    }
+
+    /* Mobile-Friendly Adjustments */
+    @media (max-width: 600px) {
+        header {
+            font-size: 22px;
+            padding: 18px;
+        }
+
+        .card {
+            padding: 18px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+        }
+
+        .card p {
+            font-size: 14px;
+        }
+
+        .btn {
+            padding: 8px 14px;
+            font-size: 13px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    Loveleen Batra – Projects Undertaken
+</header>
+
+<div class="container">
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+            <h3>BCI based EEG signal feature selection using Binary-MPA and classification using ML</h3>
+            <p>EEG signal classification using ML with 97% accuracy and optimized preprocessing.</p>
+        </div>
+
+        <div class="card">
+            <h3>Plant Disease Detection (CNN)</h3>
+            <p>CNN-based plant disease detection with 89% accuracy using Kaggle dataset.</p>
+        </div>
+
+        <div class="card">
+            <h3>Language Learning Chatbot (NLP)</h3>
+            <p>NLP-driven chatbot with SQL storage and Streamlit UI for improved learning.</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Travel Planner (API)</h3>
+            <p>Generative AI travel itinerary planner using LLMs and ranking logic.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Scraping Chatbot</h3>
+            <p>Chatbot that scrapes webpages and summarizes results intelligently.</p>
+        </div>
+
+        <div class="card">
+            <h3>Interactive Recipe Finder (API)</h3>
+            <p>Recipe finder using Spoonacular API with ingredient-based queries.</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2025 Loveleen Batra
+</footer>
+
+</body>
+</html>
